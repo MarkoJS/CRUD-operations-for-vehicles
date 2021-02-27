@@ -1,0 +1,10 @@
+thead {
+    background-color: rgb(57, 140, 212);
+}
+thead {
+    color: white;
+    font-family: 'Century Gothic', Courier, monospace;
+}
+td {
+    color: black;
+}
