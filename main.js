@@ -21,29 +21,6 @@ async function getData(){
 
 getData();
 
-// Filter za pretragu prvi
-// $("#searchPolje").on('keyup', function(){
-//   var vrednost = $(this).val();
-//   console.log('Value:', vrednost);
-  // var data = searchFilter(vrednost, data);
-  // getData(data);
-
-// })
-
-// function searchFilter(value, data){
-//   var filtrirandata = [];
-  
-//   for (var i=0; i<data.value.length; i++){
-//     value = value.toLowerCase()
-//     var filtriranoIme = data[i].registrationPlates.toLowerCase()
-
-//     if (filtriranoIme.includes(value)){
-//       filtrirandata.push(data[i])
-//     }
-//   }
-//   return filtrirandata
-// };
-
 //drugi primer search/a
 $("#searchPolje").on('keyup', function(){
     searchTable($(this).val());
