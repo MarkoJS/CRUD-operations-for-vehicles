@@ -21,7 +21,7 @@ async function getData(){
 
 getData();
 
-//drugi primer search/a
+
 $("#searchPolje").on('keyup', function(){
     searchTable($(this).val());
 });
